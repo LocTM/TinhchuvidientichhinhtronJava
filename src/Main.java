@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Moi ban nhap vao ban kinh hinh tron: ");
-        double r = scanner.nextInt();
+        double r = scanner.nextDouble();
         double result = r * Math.PI * 2;
         System.out.println("Chu vi hinh tron la: " + result);
 
